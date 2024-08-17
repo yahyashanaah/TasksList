@@ -1,0 +1,7 @@
+<app-card>
+    <button type="submit" [class.active]="selected" (click)="onSelected()">
+        <img [src]="imagePath" alt="selectedUser().name"
+        [alt]="user.name"/>
+        <span>{{user.name}}</span>
+    </button>
+</app-card>
